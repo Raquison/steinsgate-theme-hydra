@@ -1,0 +1,167 @@
+
+  /*
+    Here you can edit CSS for your theme and apply it on Hydra.
+    There are a few classes already in place, you can use them to style the launcher.
+
+    If you want to learn more about how to run Hydra in dev mode (which will allow you to inspect the DOM and view the classes)
+    or how to publish your theme in the theme store, you can check the docs:
+    https://docs.hydralauncher.gg/
+
+    Happy hacking!
+  */
+
+
+body {
+  color: rgb(221, 76, 76);
+}
+  /* Header */
+.header {
+  color: rgb(134, 40, 40);
+}
+
+  /* Sidebar */
+
+  /* Main content */
+  /* .container__content {} */
+=
+  /* Bottom panel */
+  /* .bottom-panel {} */
+
+  /* Toast */
+  /* .toast {} */
+
+/* Button */
+.button {
+  border: 1px solid rgb(94, 51, 51);
+}
+
+.sidebar {
+  color: #eb252c;
+}
+/* sidebar */
+
+
+
+.sidebar__content::-webkit-scrollbar-thumb {
+  background: rgb(184, 20, 20); 
+  border-radius: 10px;
+}
+
+.sidebar__menu-item-button {
+  border-radius: 5px;
+  background-color: rgba(36, 35, 35, 0.5);
+}
+.sidebar__menu-item-button:hover {
+  opacity: 0.5;
+  background-color: red;
+}
+
+.sidebar__menu-item-button:active {
+  border-radius: 5px;
+  background-color: rgba(133, 35, 35, 0.5);
+}
+
+.sidebar__menu-item-button:active {
+  transition: transform 300ms ease;
+  transform: scale(1.10);
+}
+
+.text-field-container__text-field-input {
+  background-color: rgb(36, 35, 35);
+  border-radius: 10px;
+}
+
+
+/* catalogo */
+
+.badge{
+  color: #800023;
+}
+.badge:first-child{
+  color: red
+}
+
+.filter-section__title {
+  color: rgb(245, 144, 144);
+}
+
+.filter-section__count {
+  color: rgb(129, 107, 107);
+}
+
+.game-item:hover {
+  box-shadow: 0px 0px 10px red;
+}
+
+/* downloads */
+
+.download-group__item:hover {
+  box-shadow: 0px 0px 10px red;
+}
+
+/* opcoes de download */
+
+.modal__header-title h3 {
+  color: #e67676;
+
+}
+
+.modal__header-title p {
+  color: #a55b5b;
+
+}
+
+
+.repacks-modal__repack-button:first-child {
+  color: green;
+}
+
+.repacks-modal__repack-button:first-child .repacks-modal__repack-info::after {
+    content: " - Recomendado" !important;
+}
+
+.repacks-modal__repack-button .badge {
+  color: rgb(236, 170, 170);
+}
+
+.repacks-modal__repack-button:hover {
+  box-shadow: 0px 0px 6px red;
+}
+
+
+/* hydraname */
+
+#root > div > h4::after {
+  content: " Red Theme By Racovik";
+}
+
+/* red effect */
+
+.game-card, .user-library-game__wrapper, .how-long-to-beat__category, .achievements__item, .list__item, .theme-card {
+  box-shadow: 0px 0px 10px 2px rgb(17, 0, 0);
+  transition: all 1s ease;
+}
+.game-card:hover, .user-library-game__wrapper:hover, .how-long-to-beat__category:hover, .achievements__item:hover, .list__item:hover, .theme-card:hover {
+  box-shadow: 0px 0px 20px 10px rgba(256, 0, 0, 0.2);
+}
+
+/* input */
+
+.text-field-container__text-field {
+  border: 1px solid rgb(124, 56, 56);
+}
+
+.text-field-container__text-field:hover {
+  border: 1px solid rgb(167, 24, 24);
+}
+
+/* gamedetails */
+
+.game-details__description {
+  color: rgb(241, 161, 161);
+}
+
+.sidebar__content::-webkit-scrollbar-thumb {
+  background: rgb(184, 20, 20); 
+  border-radius: 10px;
+}
